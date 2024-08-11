@@ -13,6 +13,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import DramaQuotesPage from './pages/DramaQuotesPage';
+import './App.css';
 
 function App() {
   return (
