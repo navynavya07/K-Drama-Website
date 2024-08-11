@@ -1,0 +1,30 @@
+/* src/components/TopRatedDramas.css */
+.top-rated-dramas-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .top-rated-dramas-title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .top-rated-dramas-card {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    transition: transform 0.2s ease-in-out;
+    width: 500px;
+    height: 450px;
+  }
+  
+  .top-rated-dramas-card:hover {
+    transform: scale(1.02);
+  }
+  
+  @media (max-width: 600px) {
+    .top-rated-dramas-title {
+      font-size: 1.5rem;
+    }
+  }
+  

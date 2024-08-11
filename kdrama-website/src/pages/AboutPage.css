@@ -1,0 +1,83 @@
+/* General Styles for the Page */
+.about-grid-container, .contact-grid-container {
+  margin-top: 15%;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+  align-items: flex-start; /* Align items to the start for a consistent layout */
+  justify-content: space-between;
+  gap: 2rem; /* Balanced gap between sections */
+}
+
+.vision-grid-container {
+  margin-top: 15%;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+  align-items: center; /* Center items for Vision section */
+  justify-content: space-between;
+  gap: 2rem; /* Balanced gap between sections */
+}
+
+.about-content, .vision-content, .contact-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #f6d0fd; /* Slightly darker purple */
+  border-radius: 15px;
+  width: 500px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Softer, deeper shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+  text-align: center; /* Center text */
+}
+
+.vision-content {
+  order: 2; /* Ensure content is on the right in the Vision section */
+  text-align: left; /* Align text to the left */
+}
+
+.section-heading {
+  margin-bottom: 25px;
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #6a1b9a; /* Deep purple for headings */
+}
+
+.about-image-container, .vision-image-container, .contact-image-container {
+  margin-top: -7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center; /* Center align the content within container */
+}
+
+.vision-image-container {
+  order: 1; /* Ensure image is on the left in the Vision section */
+}
+
+.about-image, .vision-image, .contact-image {
+  width: 100%;
+  height: auto; /* Adjust height to maintain aspect ratio */
+  max-width: 350px; /* Fixed size for consistency */
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgb(224, 195, 255); /* Matching shadow */
+}
+
+@media (max-width: 960px) {
+  .about-grid-container, .vision-grid-container, .contact-grid-container {
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+  }
+
+  .about-image-container, .vision-image-container, .contact-image-container {
+    order: 1; /* Maintain image position on smaller screens */
+    margin: 20px 0;
+  }
+
+  .about-content, .vision-content, .contact-content {
+    margin-bottom: 30px; /* Add spacing between stacked sections */
+  }
+
+  .vision-content {
+    text-align: center; /* Center text on smaller screens */
+  }
+}

@@ -1,0 +1,342 @@
+[
+    {
+      "id": 1,
+      "title": "Queen Of Tears",
+      "genre": "Romance, Comedy",
+      "rating": 4.5,
+      "year": 2024,
+      "episodes": 16,
+      "network": "tvN",
+      "synopsis": "'Marriage of the Century... War of the Century?'' The third generation of the Queens Group conglomerate, the queen of the department store, 'Hong Hae-in'. The son of the Yongduri village chief, the supermarket prince, 'Baek Hyun-woo'. The thrilling crisis of a couple in their third year and the love story that begins again like a miracle.",
+      "cast": [
+        {
+          "name": "Kim SOO Hyun",
+          "role": "Lead",
+          "image": "../assets/cast/kshy.jpg"
+        },
+        {
+          "name": "Kim Ji Won",
+          "role": "Lead",
+          "image": "../assets/cast/kjwon.jpg"
+        }
+      ],
+      "related": [2, 3],
+      "image": "../assets/QOT.jpg",
+      "trailer": "https://www.youtube.com/embed/Gg2D8zrzlOA"
+    },
+    {
+        "id": 2,
+        "title": "The Glory",
+        "genre": "Drama, Revenge",
+        "rating": 9.2,
+        "year": 2024,
+        "episodes": 16,
+        "network": "Netflix",
+        "synopsis": "A high school girl, who was bullied, seeks revenge on her tormentors years later as a successful adult.",
+        "cast": [
+          {
+            "name": "Song Hye-kyo",
+            "role": "Lead",
+            "image": "../assets/cast/shk.jpg"
+          },
+          {
+            "name": "Lee Do-hyun",
+            "role": "Lead",
+            "image": "../assets/cast/ldh.jpg"
+          }
+        ],
+        "related": [3, 9],
+        "image": "../assets/Glory.jpg",
+        "trailer": "https://www.youtube.com/embed/tqVVrTvrI8U"
+      },
+      {
+        "id": 3,
+        "title": "Hometown Cha-Cha-Cha",
+        "genre": "Romance, Comedy, Slice of Life",
+        "rating": 8.9,
+        "year": 2023,
+        "episodes": 16,
+        "network": "tvN",
+        "synopsis": "A heartwarming slice-of-life drama set in a seaside village where a city woman and a local handyman find themselves intertwined in various comedic and touching situations.",
+        "cast": [
+          {
+            "name": "Kim Seon-ho",
+            "role": "Lead",
+            "image": "../assets/cast/ksho.jpg"
+          },
+          {
+            "name": "Shin Min-a",
+            "role": "Lead",
+            "image": "../assets/cast/sma.jpg"
+          }
+        ],
+        "related": [1, 7],
+        "image": "../assets/Hometown Cha Cha Cha.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Goblin",
+        "genre": "Fantasy, Romance",
+        "rating": 9.0,
+        "year": 2016,
+        "episodes": 16,
+        "network": "tvN",
+        "synopsis": "A centuries-old goblin seeks a human bride to end his immortality and his quest leads him to a high school student with a mysterious destiny.",
+        "cast": [
+          {
+            "name": "Gong Yoo",
+            "role": "Lead",
+            "image": "../assets/cast/gy.jpg"
+          },
+          {
+            "name": "Kim Go-eun",
+            "role": "Lead",
+            "image": "../assets/cast/kge.jpg"
+          }
+        ],
+        "related": [2, 5],
+        "image": "../assets/Goblin.jpeg"
+      },
+    {
+        "id": 5,
+        "title": "Reborn Rich",
+        "genre": "Drama, Fantasy",
+        "rating": 9.1,
+        "year": 2023,
+        "episodes": 16,
+        "network": "JTBC",
+        "synopsis": "A chaebol family’s secretary is reborn into the family’s youngest son and seeks revenge while navigating the intricacies of the conglomerate world.",
+        "cast": [
+          {
+            "name": "Song Joong-ki",
+            "role": "Lead",
+            "image": "../assets/cast/sjk.jpg"
+          },
+          {
+            "name": "Shin Hyun-bin",
+            "role": "Lead",
+            "image": "../assets/cast/shb.jpg"
+          }
+        ],
+        "related": [3, 6],
+        "image": "../assets/reborn rich.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Descendants of the Sun",
+        "genre": "Romance, Action",
+        "rating": 8.6,
+        "year": 2016,
+        "episodes": 16,
+        "network": "KBS2",
+        "synopsis": "A love story between a special forces officer and a doctor set against the backdrop of a fictional war-torn country.",
+        "cast": [
+          {
+            "name": "Song Joong-ki",
+            "role": "Lead",
+            "image": "../assets/cast/sjk.jpg"
+          },
+          {
+            "name": "Song Hye-kyo",
+            "role": "Lead",
+            "image": "../assets/cast/shk.jpg"
+          }
+        ],
+        "related": [3, 7],
+        "image": "../assets/DOTS.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Itaewon Class",
+        "genre": "Drama",
+        "rating": 8.8,
+        "year": 2020,
+        "episodes": 16,
+        "network": "JTBC",
+        "synopsis": "A young man opens a bar in Itaewon after being wronged by a powerful conglomerate and strives to achieve success while seeking revenge.",
+        "cast": [
+          {
+            "name": "Park Seo-jun",
+            "role": "Lead",
+            "image": "../assets/cast/psj.jpg"
+          },
+          {
+            "name": "Kim Da-mi",
+            "role": "Lead",
+            "image": "../assets/cast/kdm.jpg"
+          }
+        ],
+        "related": [2, 6],
+        "image": "../assets/Itaewon Class.jpg"
+      },
+      
+      {
+        "id": 8,
+        "title": "Hotel Del Luna",
+        "genre": "Fantasy, Romance",
+        "rating": 8.5,
+        "year": 2019,
+        "episodes": 16,
+        "network": "tvN",
+        "synopsis": "A unique hotel caters to ghosts and the mysterious hotel owner has a complicated past as she meets a new manager with a hidden agenda.",
+        "cast": [
+          {
+            "name": "IU",
+            "role": "Lead",
+            "image": "../assets/cast/IU.jpg"
+          },
+          {
+            "name": "Yeo Jin-goo",
+            "role": "Lead",
+            "image": "../assets/cast/yjg.jpg"
+          }
+        ],
+        "related": [2, 10],
+        "image": "../assets/HotelDeLuna.jpeg"
+      },
+      {
+        "id": 9,
+        "title": "Vincenzo",
+        "genre": "Crime, Drama",
+        "rating": 8.8,
+        "year": 2021,
+        "episodes": 20,
+        "network": "tvN",
+        "synopsis": "An Italian mafia lawyer returns to South Korea and uses his skills to fight corruption and bring justice.",
+        "cast": [
+          {
+            "name": "Song Joong-ki",
+            "role": "Lead",
+            "image": "../assets/cast/sjk.jpg"
+          },
+          {
+            "name": "Jeon Yeo-bin",
+            "role": "Lead",
+            "image": "../assets/cast/jyb.jpg"
+          }
+        ],
+        "related": [4, 7],
+        "image": "../assets/Vincenzo.jpg"
+      },
+      {
+        "id": 10,
+        "title": "My Mister",
+        "genre": "Drama",
+        "rating": 9.1,
+        "year": 2018,
+        "episodes": 16,
+        "network": "tvN",
+        "synopsis": "A middle-aged man and a young woman with difficult lives form an unexpected connection and help each other find hope and healing.",
+        "cast": [
+          {
+            "name": "Lee Sun-kyun",
+            "role": "Lead",
+            "image": "../assets/cast/lsk.jpg"
+          },
+          {
+            "name": "IU",
+            "role": "Lead",
+            "image": "../assets/cast/IU.jpg"
+          }
+        ],
+        "related": [4, 9],
+        "image": "../assets/My Mister.jpg"
+      },
+      {
+        "id": 11,
+        "title": "Crash Landing on You",
+        "genre": "Romance, Drama",
+        "rating": 9.3,
+        "year": 2019,
+        "episodes": 16,
+        "network": "tvN",
+        "synopsis": "A drama depicting the top-secret love story of Yoon Se-ri, a conglomerate heiress who crash-lands in North Korea one day due to a paragliding accident caused by a gust of wind, and Ri Jeong-hyeok, a special officer who hides and protects her and then falls in love with her.",
+        "cast": [
+          {
+            "name": "Hyun Bin",
+            "role": "Lead",
+            "image": "../assets/cast/hb.jpg"
+          },
+          {
+            "name": "Son Ye-jin",
+            "role": "Lead",
+            "image": "../assets/cast/syj.jpg"
+          }
+        ],
+        "related": [5, 13],
+        "image": "../assets/CLO.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Hospital Playlist",
+        "genre": "Drama, Slice of Life",
+        "rating": 9.0,
+        "year": 2020,
+        "episodes": 12,
+        "network": "tvN",
+        "synopsis": "The lives and relationships of five doctors who have been friends since medical school and now work together at the same hospital.",
+        "cast": [
+          {
+            "name": "Jo Jung-suk",
+            "role": "Lead",
+            "image": "../assets/cast/jjs.jpg"
+          },
+          {
+            "name": "Jeon Mi Do",
+            "role": "Lead",
+            "image": "../assets/cast/jmd.jpg"
+          }
+        ],
+        "related": [6, 11],
+        "image": "../assets/Hospital Playlist.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Twenty-Five Twenty-One",
+        "genre": "Romance, Life, Drama, Melodrama",
+        "rating": 8.6,
+        "year": 2022,
+        "episodes": 16,
+        "network": "tvN",
+        "synopsis": "In a time when dreams seem out of reach, a teen fencer pursues big ambitions and meets a hardworking young man who seeks to rebuild his life.",
+        "cast": [
+          {
+            "name": "Kim Tae-ri",
+            "role": "Lead",
+            "image": "../assets/cast/ktr.jpg"
+          },
+          {
+            "name": "Nam Joo-hyuk",
+            "role": "Lead",
+            "image": "../assets/cast/ngh.jpg"
+          }
+        ],
+        "related": [7, 12],
+        "image": "../assets/2521.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Reply 1988",
+        "genre": "Family drama; Comedy; Romance; Coming-of-age",
+        "rating": 9.1,
+        "year": 2015,
+        "episodes": 20,
+        "network": "tvN",
+        "synopsis": "A group of childhood friends, who live in the same lane, rely on each other to get through their teenage years, while their parents, who also share a close bond, deal with their issues together.",
+        "cast": [
+          {
+            "name": "Lee Hye-ri",
+            "role": "Lead",
+            "image": "../assets/cast/lhr.jpg"
+          },
+          {
+            "name": "Park Bo-gum",
+            "role": "Lead",
+            "image": "../assets/cast/pbg.jpg"
+          }
+        ],
+        "related": [6, 8],
+        "image": "../assets/Reply 1988.jpg"
+      }
+  ]
+  

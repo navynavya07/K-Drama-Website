@@ -1,0 +1,40 @@
+/* src/pages/ContactPage.css */
+.contact-page-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form-wrapper, .contact-details-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-page-title, .contact-details-title {
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-field {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #b39ddb; /* Light purple color */
+  }
+  
+  .contact-details-text {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #4a4a4a;
+  }
+  

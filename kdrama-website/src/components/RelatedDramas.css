@@ -1,0 +1,51 @@
+.related-drama-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px; /* Fixed width */
+    height: 250px; /* Fixed height to ensure the card is square */
+    overflow: hidden; /* Hide overflow if content exceeds card size */
+  }
+  
+  .related-drama-image {
+    width: 100%; /* Ensure the image fits the width of the card */
+    height: 70%; /* Reserve 70% of the card height for the image */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+  }
+  
+  .related-drama-card .MuiCardContent-root {
+    height: 30%; /* Reserve 30% of the card height for the content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center-align the text and button */
+  }
+  
+  .related-drama-card .MuiTypography-h6 {
+    margin-bottom: 8px; /* Add some spacing between the title and button */
+  }
+  
+  @media (max-width: 600px) {
+    .related-drama-card {
+      width: 200px; /* Adjust width for smaller screens */
+      height: 200px; /* Adjust height for smaller screens */
+    }
+  
+    .related-drama-image {
+      height: 70%; /* Reserve 70% of the card height for the image */
+    }
+  
+    .related-drama-card .MuiCardContent-root {
+      height: 30%; /* Reserve 30% of the card height for the content */
+    }
+  }
+  .related-drama-card .MuiButton-root {
+    background-color: #d796ff; /* Deep purple color */
+    color: white; /* White text color for better contrast */
+  }
+  
+  .related-drama-card .MuiButton-root:hover {
+    background-color: #ca61ff; /* Darker purple for hover effect */
+  }
+  

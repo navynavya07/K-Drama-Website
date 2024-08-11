@@ -1,0 +1,39 @@
+.drama-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 16px;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .drama-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .drama-card-content {
+    padding: 16px;
+  }
+  
+  .drama-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .drama-card-genre {
+    color: #757575;
+    margin-bottom: 16px;
+  }
+  
+  .drama-card-button {
+    background-color: #d796ff;
+    color: white;
+  }
+  
+  .drama-card-button:hover {
+    background-color: #d071ff;
+  }
+  

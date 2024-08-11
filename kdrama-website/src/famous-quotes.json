@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "drama": "Twenty Five Twenty One",
+      "character": "Na Hee Do",
+      "quote": "Every day can’t be a tragedy just because you lose every day. It’s easy to forget after you laugh. You have to forget in order to move on. "
+    },
+    {
+      "id": 2,
+      "drama": "Reply 1988",
+      "character": "Deok Sun",
+      "quote": "Time will always flow. Everything will pass by. That might be why youth is beautiful. It shines, blindingly bright, for just an instant. But you can never go back to it."
+    },
+    {
+      "id": 3,
+      "drama": "Crash Landing On You",
+      "character": "Yoon Se Ri",
+      "quote": "Sometimes the wrong train takes you to the right direction."
+    },
+    {
+        "id": 4,
+        "drama": "Itaewon Class",
+        "character": "Park Sae Roy",
+        "quote": "You don’t need to be on anyone’s side, but your own."
+      },
+      {
+        "id": 5,
+        "drama": "Itaewon Class",
+        "character": "Park Sae Roy",
+        "quote": "Sometimes you have to take a leap of faith, even if you’re scared."
+      },
+      {
+        "id": 6,
+        "drama": "Tomorrow",
+        "character": "Goo Ryeon",
+        "quote": "Failure means you should try again. You just have to keep trying hard. Then it'll work out one day. It will."
+      }
+  ]
+  

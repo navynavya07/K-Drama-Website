@@ -1,0 +1,98 @@
+[
+  {
+      "id": 1,
+      "drama": "Crash Landing on You",
+      "quotes": [
+          {
+              "character": "Yoon Se-ri",
+              "quote": "I don’t want to be without you. I want to be with you until the end of time."
+          },
+          {
+              "character": "Ri Jeong-hyeok",
+              "quote": "Don't worry, I'll protect you no matter what."
+          }
+      ],
+      "image": "../assets/CLO.jpg"
+  },
+  {
+      "id": 2,
+      "drama": "Goblin",
+      "quotes": [
+          {
+              "character": "Kim Shin",
+              "quote": "The moment I realized my existence was too great to bear, it became my curse."
+          },
+          {
+              "character": "Ji Eun-tak",
+              "quote": "If you think I’m beautiful, then I am."
+          }
+      ],
+      "image": "../assets/Goblin.jpeg"
+  },
+  {
+      "id": 3,
+      "drama": "Descendants of the Sun",
+      "quotes": [
+          {
+              "character": "Yoo Shi-jin",
+              "quote": "I don’t believe in destiny. I believe in hard work."
+          }
+      ],
+      "image": "../assets/DOTS.jpg"
+  },
+  {
+      "id": 4,
+      "drama": "Reply 1988",
+      "quotes": [
+          {
+              "character": "Deok Sun",
+              "quote": "Time will always flow. Everything will pass by. That might be why youth is beautiful. It shines, blindingly bright, for just an instant. But you can never go back to it."
+          }
+      ],
+      "image": "../assets/Reply 1988.jpg"
+  },
+  {
+      "id": 5,
+      "drama": "Itaewon Class",
+      "quotes": [
+          {
+              "character": "Park Sae-ro-yi",
+              "quote": "I don’t need revenge. I just want to become someone who can move forward without being afraid."
+          }
+      ],
+      "image": "../assets/Itaewon Class.jpg"
+  },
+  {
+        "id": 6,
+        "drama": "Twenty Five Twenty One",
+        "quotes": [
+             {
+                "character": "Na Hee Do",
+                "quote": "Every day can’t be a tragedy just because you lose every day. It’s easy to forget after you laugh. You have to forget in order to move on."
+            }
+        ],
+        "image": "../assets/2521.jpg"
+    },
+    {
+        "id": 7,
+        "drama": "Be MeloDramatic",
+        "quotes": [
+             {
+                "character": "Na Hee Do",
+                "quote": "Every day can’t be a tragedy just because you lose every day. It’s easy to forget after you laugh. You have to forget in order to move on."
+            }
+        ],
+        "image": "../assets/BeMelodramatic.jpg"
+    },
+    {
+        "id": 8,
+        "drama": "My Liberation Notes",
+        "quotes": [
+             {
+                "character": "Na Hee Do",
+                "quote": "Every day can’t be a tragedy just because you lose every day. It’s easy to forget after you laugh. You have to forget in order to move on."
+            }
+        ],
+        "image": "../assets/mylibe.jpeg"
+    }
+]

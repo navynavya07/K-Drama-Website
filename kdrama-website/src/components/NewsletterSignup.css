@@ -1,0 +1,35 @@
+/* src/components/NewsletterSignup.css */
+.newsletter-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .newsletter-title {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .newsletter-input {
+    background-color: #f9f9f9;
+  }
+  
+  .newsletter-button {
+    background-color: #c38bff;;
+    color: #ffffff;
+    font-weight: bold;
+    &:hover {
+      background-color: #af77eb;;
+    }
+  }
+  

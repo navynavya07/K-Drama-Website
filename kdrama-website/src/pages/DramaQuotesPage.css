@@ -1,0 +1,23 @@
+.drama-image-center {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 555px;
+  height: auto;
+}
+
+.quotes-container {
+  margin-top: 32px; /* Add some gap between the image and quotes */
+}
+.drama-name{
+  margin-top: 35px;
+}
+.quote-card {
+  padding: 16px;
+  margin: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

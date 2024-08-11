@@ -1,0 +1,45 @@
+/* src/components/CastAndCrew.css */
+.cast-section {
+    margin-top: 24px; /* Add some space above the section */
+    margin-bottom: 24px;
+  }
+  
+  .cast-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px; /* Space below the title */
+  }
+  
+  .cast-container {
+    display: flex;
+    gap: 48px; /* Space between cast members */
+    flex-wrap: wrap; /* Allow wrapping if there's not enough space */
+  }
+  
+  .cast-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content of each cast member */
+    text-align: center; /* Center the text */
+  }
+
+  .cast-member-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    object-fit: cover; /* Ensure images are contained within the box */
+    border-radius: 50%; 
+  }
+  
+  
+  .cast-member-name {
+    font-weight: bold;
+  }
+  
+  .cast-member-role {
+    font-style: italic;
+    color: gray;
+  }
+  

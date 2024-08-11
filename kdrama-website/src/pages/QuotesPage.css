@@ -1,0 +1,70 @@
+/* Specific to Quotes Page */
+.famous-quotes{
+  margin-top: 27px;
+}
+
+.quotes-page-quote-card {
+  padding: 16px;
+  margin: 8px;
+  text-align: center;
+  height: 250px;
+  width: 380px; /* Ensure all quote cards are the same size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quotes-page-drama-card {
+  padding: 16px;
+  text-align: center;
+  height: 300px; /* Reduced height to fit content better */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quotes-page-drama-image {
+  width: 100%;
+  height: 220px; /* Reduced height to create space for text and button */
+  object-fit: cover;
+  margin-bottom: 4px;
+}
+
+.quotes-page-drama-title {
+  font-size: 0.9rem; /* Slightly smaller font size to fit better */
+  font-weight: 600;
+  margin-bottom: 1px; /* Reduced margin to save space */
+}
+
+.quotes-page-see-quotes-btn {
+  font-size: 0.7rem; /* Smaller font size for button content */
+  padding: 2px 8px; /* Smaller padding to reduce button size */
+  min-width: auto; /* Remove default min-width */
+  line-height: 1.5; /* Adjust line height to ensure text fits well */
+  background-color: #d796ff;
+}
+
+.quotes-page-see-quotes-btn:hover {
+  background-color: #ca61ff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .quotes-page-drama-card {
+    height: 220px; /* Adjusted height for smaller screens */
+  }
+
+  .quotes-page-drama-image {
+    height: 100px; /* Adjusted image height for smaller screens */
+  }
+
+  .quotes-page-drama-title {
+    font-size: 0.8rem; /* Adjusted font size for smaller screens */
+  }
+
+  .quotes-page-see-quotes-btn {
+    font-size: 0.6rem; /* Even smaller font size for small screens */
+    padding: 1px 4px; /* Smaller padding on small screens */
+  }
+}

@@ -1,0 +1,80 @@
+.featured-dramas-container {
+    margin: 20px 0;
+     /* Replace with your background image path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    padding: 20px;
+  }
+  
+  .featured-dramas-title {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 48px; /* Adjust font size as needed */
+  }
+  
+  .featured-dramas-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px;
+    height: 370px;
+    border: 1px solid #ddd; /* Light border for card */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure content does not overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; /* White background */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .featured-dramas-card:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+  }
+  
+  .featured-dramas-card-media {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    padding:8px;
+  }
+  
+  .featured-dramas-card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding:20px; /* Add padding inside the card */
+  }
+  
+  .featured-dramas-card-title {
+    font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 14px; /* Adjusted font size */
+  margin: 8px 0 4px 0; /* Space below the title */
+  }
+  
+  .featured-dramas-card-description {
+    font-family: 'Poppins', sans-serif;
+    color: #757575;
+    font-size: 9px; /* Adjust font size as needed */
+     /* Space below the description */
+  }
+  
+  .featured-dramas-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #c38bff;
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded button corners */
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .featured-dramas-button:hover {
+    background-color: #af77eb; /* Darker shade on hover */
+  }
+  

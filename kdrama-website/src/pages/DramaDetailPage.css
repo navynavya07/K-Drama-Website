@@ -1,0 +1,77 @@
+/* src/pages/DramaDetailPage.css */
+.drama-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.drama-header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.drama-info {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.drama-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.drama-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.drama-synopsis {
+  margin-top: 16px;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .drama-info {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .drama-image {
+      width: 100%; /* Make the image responsive */
+      height: auto; /* Auto height */
+  }
+}
+/* src/pages/DramaDetailPage.css */
+.trailer-container {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.trailer-container iframe {
+  border-radius: 8px;
+  height: 500px;
+  width: 900px;
+}
+
+/* For related dramas in smaller cards */
+.card {
+  height: 100%; /* Ensure the card takes full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content {
+  padding: 8px; /* Reduced padding for a compact look */
+}
+
+.card-media {
+  height: 120px; /* Adjust card image height */
+  object-fit: cover;
+}

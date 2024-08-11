@@ -1,0 +1,149 @@
+/* src/pages/HomePage.css */
+.main-section {
+  width: 100%;
+  max-width: 1300px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 60px 20px; /* Add horizontal padding */
+  background: linear-gradient(to right, #bed9ff, #c9abff);
+  position: relative;
+  overflow: hidden;
+  margin-top: 70px;
+  border-radius: 25px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.main-content {
+  max-width: 80%;
+  padding: 50px;
+}
+
+.main-title {
+  font-size: 90px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: #be41fc;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.167;
+  letter-spacing: -0.01562em;
+}
+
+.main-subtitle {
+  margin: 0;
+  font-size: 2.125rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #666;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
+}
+
+.main-text {
+  margin: 0;
+  font-size: 17px;
+  color: #999;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+
+.main-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 416px;
+  height: 483px;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .main-section {
+    height: 600px; /* Adjust height for medium-sized screens */
+    padding: 40px 20px;
+  }
+
+  .main-title {
+    font-size: 72px; /* Adjust font size for medium-sized screens */
+  }
+
+  .main-subtitle {
+    font-size: 1.875rem; /* Adjust font size for medium-sized screens */
+  }
+
+  .main-text {
+    font-size: 15px; /* Adjust font size for medium-sized screens */
+  }
+
+  .main-image {
+    width: 350px; /* Adjust width for medium-sized screens */
+    height: auto; /* Keep aspect ratio */
+    margin-left: 15px; /* Adjust margin for medium-sized screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    height: auto; /* Adjust height for smaller screens */
+    padding: 40px 20px;
+  }
+
+  .main-content {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .main-title {
+    font-size: 48px; /* Adjust font size for smaller screens */
+  }
+
+  .main-subtitle {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .main-text {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .main-image {
+    position: static; /* Remove absolute positioning for smaller screens */
+    width: 100%;
+    max-width: 350px; /* Adjust width for smaller screens */
+    margin-top: 20px;
+    padding: 0; /* Remove padding */
+    margin-left: 0; /* Remove margin */
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 36px; /* Further reduce font size for very small screens */
+  }
+
+  .main-subtitle {
+    font-size: 1.25rem; /* Further reduce font size for very small screens */
+  }
+
+  .main-text {
+    font-size: 12px; /* Further reduce font size for very small screens */
+  }
+
+  .main-image {
+    max-width: 300px; /* Further adjust width for very small screens */
+  }
+}

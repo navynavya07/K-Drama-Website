@@ -1,0 +1,27 @@
+/* Container for padding around the component */
+.genres-container {
+    padding: 2rem;
+  }
+  
+  /* Typography for the title */
+  .genres-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Button styling */
+  .genres-button {
+    background-color: #c38bff; /* Purple color */
+    color: #fff; /* White text */
+    width: 100%; /* Full width button */
+    margin-bottom: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  /* Hover effect for buttons */
+  .genres-button:hover {
+    background-color: #af77eb; /* Darker purple for hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
